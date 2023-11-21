@@ -1,4 +1,6 @@
 platform :ios do
+  lane :build do
+    xcbuild(scheme: "KindergeldApplication")
   lane :tests do
     run_tests(scheme: "KindergeldApplication")
   end
