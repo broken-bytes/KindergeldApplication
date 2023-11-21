@@ -1,0 +1,5 @@
+platform :ios do
+  lane :tests do
+    run_tests(scheme: "KindergeldApplication")
+  end
+end
